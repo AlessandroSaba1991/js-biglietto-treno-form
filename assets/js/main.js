@@ -30,7 +30,7 @@ element_button_genera.addEventListener("click", function() {
     const sconto_over_65 = prezzo_biglietto * 0.4;
 
     //numero carrozza
-    const num_carrozza = Math.floor(Math.random() * 8);
+    const num_carrozza = Math.floor(Math.random() * 5) + 1;
 
     //numero codice CP
     const num_codice = Math.floor(Math.random() * 100000);
