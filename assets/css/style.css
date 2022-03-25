@@ -1,0 +1,15 @@
+.bg_purple {
+    background-color: purple;
+}
+
+.text_primary {
+    color: purple;
+}
+
+.border_primary {
+    border-color: purple;
+}
+
+.rounded_3 {
+    border-radius: 1.5rem;
+}
