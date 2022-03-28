@@ -51,6 +51,9 @@ element_button_genera.addEventListener("click", function() {
         messaggio = "Nessuno Sconto";
     }
 
+    const element_section_biglietto = document.querySelector('.biglietto')
+    element_section_biglietto.classList.toggle('d-none')
+
     const element_nome = document.querySelector(".nome_passeggero");
     element_nome.insertAdjacentHTML("beforeend", `<p> ${element_nome_utente.value} </p>`);
 
